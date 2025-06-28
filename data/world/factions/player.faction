@@ -1,0 +1,25 @@
+{
+	"portraits":{
+		"standard_male":[
+			"graphics/EOATH/portraits/portrait_eoath01.png",
+			"graphics/EOATH/portraits/portrait_eoath03.png",
+			"graphics/EOATH/portraits/portrait_eoath05.png",
+			"graphics/EOATH/portraits/portrait_eoath07.png",
+			"graphics/EOATH/portraits/portrait_eoath09.png",
+			"graphics/EOATH/portraits/portrait_eoath11.png",
+			"graphics/EOATH/portraits/portrait_eoath13.png",
+			"graphics/EOATH/portraits/portrait_eoath15.png",
+		],
+		"standard_female":[
+			"graphics/EOATH/portraits/portrait_eoath02.png",
+			"graphics/EOATH/portraits/portrait_eoath04.png",
+			"graphics/EOATH/portraits/portrait_eoath06.png",
+			"graphics/EOATH/portraits/portrait_eoath08.png",
+			"graphics/EOATH/portraits/portrait_eoath10.png",
+			"graphics/EOATH/portraits/portrait_Ahnwjeia.png",
+		],
+	},
+}
+
+
+

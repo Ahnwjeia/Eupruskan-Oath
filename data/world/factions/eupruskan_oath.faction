@@ -1,0 +1,280 @@
+{
+	id:"eupruskan_oath",
+	"color":[90,150,110,215],
+	"displayName":"Eupruskan Oath",
+	"displayNameWithArticle":"the Eupruskan Oath",
+	"logo":"graphics/EOATH/factions/eoath.png",
+	"crest":"graphics/EOATH/factions/crest_eoath.png",
+	"shipNamePrefix":"EOS",
+	"shipNameSources":{
+		"BRITISH_NAVY":1,
+		"GREEK":2,
+		"JAPANESE":1,
+	},
+	"names":{
+		"old english":1,
+		"fringe":1,
+		"ai":2,
+	},
+	
+	# variantOverrides restricts hulls to listed variants and adjusts their probability
+	"variantOverrides":{
+	},
+	
+	# multiplier for how often hulls show up in the faction's fleets
+	"hullFrequency":{
+		"hulls":{
+			"Type-31":1,
+			"Type-32":1,
+			"Type-41":1,
+			"Type-42":1,
+			"Type-FT1":1,
+			"Type-X1":0.5,
+			"shepherd":0.6,
+			"mule":0.8,
+			"dram":0.8,
+		},
+	},
+	# ships the faction gets access to when importing S&W out-of-faction
+	"shipsWhenImporting":{
+		"tags":[],
+		"hulls":[
+		],
+	},
+	"knownShips":{
+		"hulls":[
+			"Type-31",
+			"Type-32",
+			"Type-41",
+			"Type-42",
+			"Type-FT1",
+			"Type-X1",
+			"shepherd",
+			"mule",
+			"dram",
+		],
+	},
+	"knownWeapons":{
+		"tags":["hegemony"],
+		"weapons":[
+			"lightmortar",
+			"lightmg",
+			"lightdualmg",
+			"vulcan",
+			"lightac",
+			"lightdualac",
+			"lightag",
+			"lightneedler",
+			"railgun",
+
+			"heavymortar",
+			"chaingun",
+			"heavyac",
+			"hveldriver",
+			"heavymauler",
+			"heavyneedler",
+			"flak",
+			"dualflak",
+			
+			"gauss",
+			"hephag",
+			"mark9",
+			"devastator",
+			"multineedler",
+			"mjolnir",
+			
+			
+			"reaper",
+			"atropos",
+			"atropos_single",
+			"swarmer",
+			"annihilator",
+			"heatseeker",
+			"harpoon",
+			"harpoon_single",
+			"breach",
+			"sabot",
+			"sabot_single",
+			
+			"pilum",
+			"breachpod",
+			"harpoonpod",
+			"sabotpod",
+			"phasecl",
+			"typhoon",
+			
+			# not mountable on any Hegemony ships (except the Legion XIV, which they don't have immediate access to);
+			# still available to buy from them
+			"cyclone",
+			"hurricane",
+			"squall",
+			"locust",
+			
+			"taclaser",
+			"pdlaser",
+			"lrpdlaser",
+			"ioncannon",
+			"gravitonbeam",
+			"pulselaser",
+			"phasebeam",
+		],
+	},
+	"priorityWeapons":{
+		"tags":[],
+		"weapons":[
+		],
+	},
+	"knownHullMods":{
+		"tags":["standard"],
+		"hullMods":[
+		],
+	},
+	"weaponSellFrequency":{
+		"vulcan":10,
+		"lightag":5,
+		"lightneedler":10,
+		"railgun":10,
+
+		"hveldriver":10,
+		"heavymauler":10,
+		"heavyneedler":10,
+		"flak":5,
+		"dualflak":5,
+		
+		"gauss":10,
+		"hephag":10,
+		"multineedler":5,
+		
+		"sabot":5,
+		"harpoon":5,
+		"reaper":5,
+		"breachpod":5,
+		"harpoonpod":5,
+		"sabotpod":5,
+	},
+	"fighterSellFrequency":{
+	},
+	"hullmodSellFrequency":{
+		"heavyarmor":10,
+
+	},	
+	"factionDoctrine":{
+		"warships":7,
+		"carriers":0,
+		"phaseShips":0,
+		
+		"officerQuality":3,
+		"shipQuality":3,
+		"numShips":1,
+		
+		"shipSize":3,
+		
+		"aggression":3,
+		
+		"combatFreighterProbability":0.1,      				# instead of some portion of the freighters in a fleet
+		"combatFreighterCombatUseFraction":0,  				# as part of the normal combat lineup
+		"combatFreighterCombatUseFractionWhenPriority":0,   # as part of normal combat lineup, when marked as priority ship
+		"autofitRandomizeProbability":0.1,
+		
+		"officerSkillsShuffleProbability":1f,
+		"officerSkills":[
+			"ballistic_mastery",
+			"ordnance_expert",
+		],
+		
+		"commanderSkillsShuffleProbability":1,
+		"commanderSkills":[
+			"crew_training",
+			"officer_training",
+			
+			#"tactical_drills", # keep it to two skills to make sure all high-level commanders get level 6 officers
+			#"coordinated_maneuvers",
+			#"support_doctrine",
+		],
+	},
+
+	"illegalCommodities":[
+		"ai_cores",	
+	],
+	"music":{
+		"theme":"music_diktat_market_neutral",
+		"market_neutral":"music_diktat_market_neutral",
+		"market_hostile":"music_diktat_market_hostile",
+		"market_friendly":"music_diktat_market_friendly",
+		"encounter_neutral":"music_diktat_encounter_neutral",
+		"encounter_hostile":"music_diktat_encounter_hostile",
+		"encounter_friendly":"music_diktat_encounter_friendly",
+	},	
+
+	#"tariffFraction":0.4,
+	#"tollFraction":0.1,
+	#"fineFraction":0.25,
+	"portraits":{
+		"standard_male":[
+			"graphics/EOATH/portraits/portrait_eoath01.png",
+			"graphics/EOATH/portraits/portrait_eoath03.png",
+			"graphics/EOATH/portraits/portrait_eoath05.png",
+			"graphics/EOATH/portraits/portrait_eoath07.png",
+			"graphics/EOATH/portraits/portrait_eoath09.png",
+			"graphics/EOATH/portraits/portrait_eoath11.png",
+			"graphics/EOATH/portraits/portrait_eoath13.png",
+			"graphics/EOATH/portraits/portrait_eoath15.png",
+		],
+		"standard_female":[
+			"graphics/EOATH/portraits/portrait_eoath02.png",
+			"graphics/EOATH/portraits/portrait_eoath04.png",
+			"graphics/EOATH/portraits/portrait_eoath06.png",
+			"graphics/EOATH/portraits/portrait_eoath08.png",
+			"graphics/EOATH/portraits/portrait_eoath10.png",
+		],
+	},
+	"ranks":{
+		"ranks":{
+			"factionLeader":{"name":"Podyachy"},
+			"spaceCommander":{"name":"Commissar"},
+		},
+		"posts":{
+			"factionLeader":{"name":"Podyachy"},
+			"patrolCommander":{"name":"Patrol Commissar"},
+			"fleetCommander":{"name":"Streltsy"},
+			"baseCommander":{"name":"Namestnik"},
+			"militaryAdministrator":{"name":"Zampolit"},
+		},
+	},
+	"voices":{
+		"LOW":{
+			"soldier":10,		
+			"spacer":5,
+		},
+		"MEDIUM":{
+			"soldier":10,
+			"official":5,
+		},
+		"HIGH":{
+			"soldier":5,
+			"official":10,
+		},
+	},
+	"custom":{
+		"offersCommissions":true,
+		"decentralized":false,
+		"engagesInHostilities":true,
+		"ignoreTradeWithEnemiesForReputation":true,
+		"allowsTransponderOffTrade":true,
+		"buysAICores":true,
+		"AICoreValueMult":1,
+		"AICoreRepMult":2,
+		"buysSurveyData":true,
+		"hostilityImpactOnGrowth":false,
+		"caresAboutAtrocities":false,
+		"punitiveExpeditionData":{
+			"vsCompetitors":false,
+			"vsFreePort":false,
+			"canBombard":false,
+			"territorial":true,
+		},
+		"simulatorData":{
+			"showInSimulator":true,
+		},
+	},	
+},

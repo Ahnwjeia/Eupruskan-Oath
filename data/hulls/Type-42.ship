@@ -1,0 +1,118 @@
+{
+  "hullName": "Type-42",
+  "hullId": "Type-42",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/EOATH/ships/Type-42/Type-42.png",
+  "style": "MIDLINE",
+  "height": 128,
+  "width": 219,
+  "center": [109.5, 64],
+  "collisionRadius": 132,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 125,
+  "viewOffset": 0,
+  "builtInMods": [
+    "Cast_Armor",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [50, -80.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [50, 80.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [48.5, -46]
+    },
+    {
+      "id": "WS0004",
+      "size": "LARGE",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [48.5, 46]
+    },
+    {
+      "id": "WS0005",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": -89.5,
+      "locations": [-13, -59.5]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 90,
+      "angle": 89.5,
+      "locations": [-13, 59.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-65.5, -0],
+      "length": 60,
+      "width": 37,
+      "angle": 180,
+      "contrailSize": 37,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, -43],
+      "length": 40.5,
+      "width": 21,
+      "angle": 180,
+      "contrailSize": 21,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-55, 43],
+      "length": 40.5,
+      "width": 21,
+      "angle": -180,
+      "contrailSize": 21,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -64, 15.5,
+    -56, 52.5,
+    -28, 85.5,
+    14, 105.5,
+    35, 109,
+    61, 89.5,
+    64.5, 33,
+    48.5, 22.5,
+    48.5, -22.5,
+    64.5, -33,
+    61, -89.5,
+    35, -109,
+    14, -105.5,
+    -28, -85.5,
+    -56, -52.5,
+    -64, -15.5
+  ]
+}

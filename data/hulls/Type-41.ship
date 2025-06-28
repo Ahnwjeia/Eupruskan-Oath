@@ -1,0 +1,137 @@
+{
+  "hullName": "Type-41",
+  "hullId": "Type-41",
+  "hullSize": "DESTROYER",
+  "spriteName": "graphics/EOATH/ships/Type-41/Type-41.png",
+  "style": "MIDLINE",
+  "height": 192,
+  "width": 140,
+  "center": [70, 96],
+  "collisionRadius": 124.5,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 119,
+  "viewOffset": 0,
+  "builtInMods": [
+    "Cast_Armor",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [80.5, -31]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [80.5, 31]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [81, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "COMPOSITE",
+      "mount": "TURRET",
+      "arc": 360,
+      "angle": 0,
+      "locations": [-5.5, -0]
+    },
+    {
+      "id": "WS0005",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 254,
+      "angle": 180,
+      "locations": [-62, -0]
+    },
+    {
+      "id": "WS0006",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [23, -51.5]
+    },
+    {
+      "id": "WS0007",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [23, 51.5]
+    },
+    {
+      "id": "WS0008",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -90,
+      "locations": [46, -46.5]
+    },
+    {
+      "id": "WS0009",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 90,
+      "locations": [46, 46.5]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-14, 39],
+      "length": 40.869999,
+      "width": 23.07,
+      "angle": 152,
+      "contrailSize": 23.07,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-14, -39],
+      "length": 40.869999,
+      "width": 23.07,
+      "angle": -152,
+      "contrailSize": 23.07,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -96.5, 30.5,
+    -76.5, 40.5,
+    -62, 37,
+    -34.5, 16.5,
+    -10, 46.5,
+    7, 60,
+    78, 72,
+    95.5, 54,
+    95.5, -54,
+    78, -72,
+    7, -60,
+    -10, -46.5,
+    -34.5, -16.5,
+    -62, -37,
+    -76.5, -40.5,
+    -96.5, -30.5
+  ]
+}

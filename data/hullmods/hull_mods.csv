@@ -1,0 +1,3 @@
+name,id,tier,rarity,tech/manufacturer,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Cast Armor,Cast_Armor,,,,Defensive,Defenses,,,TRUE,,0,0,0,0,data.hullmods.Cast_Armor,"The ship's armor is made of few cast elements with rigid protrusions, granting unparalleled stability and restistance. The general effectiveness of the ship's armor is therefore increased by %s and the ship's hull is able to withstand stellar phenomena up to %s.
+This comes at the inability to install similar mods or impromptu hangars.",Protects the ship from stellar phenomena and energy weapons.,graphics/EOATH/hullmods/Cast_Armor.png

@@ -1,0 +1,56 @@
+{
+  "variantId": "Type-41_variant_standard",
+  "hullId": "Type-41",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 5,
+  "fluxVents": 15,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "missile_autoloader"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "typhoon",
+        "WS0002": "typhoon"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "gauss"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0004": "heavyac"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightdualmg"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0006": "pilum",
+        "WS0007": "pilum",
+        "WS0008": "pilum",
+        "WS0009": "pilum"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

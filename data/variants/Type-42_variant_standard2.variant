@@ -1,0 +1,42 @@
+{
+  "variantId": "Type-42_variant_standard2",
+  "hullId": "Type-42",
+  "displayName": "New Variant",
+  "goalVariant": false,
+  "fluxCapacitors": 6,
+  "fluxVents": 20,
+  "quality": 1,
+  "permaMods": [],
+  "hullMods": [
+    "armoredweapons",
+    "hardened_subsystems"
+  ],
+  "weaponGroups": [
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0003": "mark9",
+        "WS0004": "mark9"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0001": "hveldriver",
+        "WS0002": "hveldriver"
+      }
+    },
+    {
+      "autofire": false,
+      "mode": "LINKED",
+      "weapons": {
+        "WS0005": "lightneedler",
+        "WS0006": "lightneedler"
+      }
+    }
+  ],
+  "modules": [],
+  "wings": []
+}

@@ -1,0 +1,36 @@
+{
+	# should be a copy of "combatSmall", minus variants that are annoying to fight in low numbers
+	# for example, no Hyperions or fast beam-based kiting loadouts, or ships with damper field
+	"combatSmallForSmallFleet":{
+		"Type-31_variant_standard":10,
+		"Type-31_variant_torpedo":8,
+		"fallback":{"combatSmall":1},
+	},
+	"combatSmall":{
+		"Type-31_variant_standard":10,
+		"Type-31_variant_torpedo":6,
+		"Type-32_variant_standard":8,
+		"Type-32_variant_close":6,
+		"Type-32_variant_missile":6,
+		"Type-X1_variant_standard":1,
+		"fallback":{"combatMedium":1},
+	},
+	"combatMedium":{
+		"Type-41_variant_standard":8,
+		"Type-42_variant_standard":10,
+		"Type-42_variant_standard2":6,
+		"fallback":{"combatSmall":1},
+	},
+
+	# hybrid ships with good combat and cargo capacity
+	"combatFreighterSmall":{
+		"Type-FT1_variant_standard":10,
+		"fallback":{"freighterSmall":1},
+	},
+	"freighterSmall":{
+		"Type-FT1_variant_standard":8,
+	},
+		"tankerSmall":{
+		"Type-FT1_variant_standard":6,
+	},
+}

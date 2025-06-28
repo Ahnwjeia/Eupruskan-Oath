@@ -1,0 +1,90 @@
+{
+  "hullName": "Type-X1",
+  "hullId": "Type-X1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/EOATH/ships/Type-X1/Type-X1.png",
+  "style": "MIDLINE",
+  "height": 95,
+  "width": 122,
+  "center": [61, 47.5],
+  "collisionRadius": 92,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 87.5,
+  "viewOffset": 0,
+  "builtInMods": [
+    "Cast_Armor",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 0,
+      "angle": 0,
+      "locations": [15.5, 32.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [15.5, -32.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "LARGE",
+      "type": "COMPOSITE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [32.5, -0]
+    },
+    {
+      "id": "WS0004",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "TURRET",
+      "arc": 260,
+      "angle": 180,
+      "locations": [-24.5, -0]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-42.5, -33],
+      "length": 30.610001,
+      "width": 23.129999,
+      "angle": -149.5,
+      "contrailSize": 23.129999,
+      "style": "MIDLINE"
+    },
+    {
+      "location": [-42.5, 33],
+      "length": 30.610001,
+      "width": 23.129999,
+      "angle": 149.5,
+      "contrailSize": 23.129999,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -47.5, 6.5,
+    -45.5, 29.5,
+    -37.5, 42.5,
+    -5.5, 57,
+    8, 61.5,
+    25.5, 56.5,
+    47, 13,
+    47, -13,
+    25.5, -56.5,
+    8, -61.5,
+    -5.5, -57,
+    -37.5, -42.5,
+    -45.5, -29.5,
+    -47.5, -6.5
+  ]
+}

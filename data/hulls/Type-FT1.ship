@@ -1,0 +1,80 @@
+{
+  "hullName": "Type-FT1",
+  "hullId": "Type-FT1",
+  "hullSize": "FRIGATE",
+  "spriteName": "graphics/EOATH/ships/Type-FT1/Type-FT1.png",
+  "style": "MIDLINE",
+  "height": 116,
+  "width": 111,
+  "center": [55.5, 58],
+  "collisionRadius": 104,
+  "shieldCenter": [0, 0],
+  "shieldRadius": 99,
+  "viewOffset": 0,
+  "builtInMods": [
+    "Cast_Armor",
+    "rugged"
+  ],
+  "weaponSlots": [
+    {
+      "id": "WS0001",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -0,
+      "locations": [52.5, -11.5]
+    },
+    {
+      "id": "WS0002",
+      "size": "SMALL",
+      "type": "BALLISTIC",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 0,
+      "locations": [52.5, 11.5]
+    },
+    {
+      "id": "WS0003",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": 45.5,
+      "locations": [28.5, 30]
+    },
+    {
+      "id": "WS0004",
+      "size": "MEDIUM",
+      "type": "MISSILE",
+      "mount": "HARDPOINT",
+      "arc": 5,
+      "angle": -45.5,
+      "locations": [28.5, -30]
+    }
+  ],
+  "engineSlots": [
+    {
+      "location": [-58, -0],
+      "length": 39.5,
+      "width": 34,
+      "angle": 180,
+      "contrailSize": 34,
+      "style": "MIDLINE"
+    }
+  ],
+  "bounds": [
+    -58.5, 10.5,
+    -51, 37.5,
+    -40, 49,
+    11.5, 57.5,
+    29.5, 52.5,
+    57.5, 16.5,
+    57.5, -16.5,
+    29.5, -52.5,
+    11.5, -57.5,
+    -40, -49,
+    -51, -37.5,
+    -58.5, -10.5
+  ]
+}
